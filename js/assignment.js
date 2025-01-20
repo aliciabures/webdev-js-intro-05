@@ -9,7 +9,8 @@ const todos = [
 ];
 
 // Declare your two immutable variables
-
+let shiftValue;
+let popValue;
 
 // Declaring constant variables to store references to the elements
 // that will be updated by your code.
@@ -22,7 +23,7 @@ const answerSixEl = document.getElementById("answer-six");
 const submissionBtn = document.getElementById("submission-btn");
 
 function updateAnswerOne() {
-    
+    console.log(todos)
 }
 
 function updateAnswerTwo() {
